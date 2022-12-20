@@ -1,13 +1,10 @@
 {
   "name": "JATE",
   "scripts": {
-    "start:dev": "concurrently \"npm run server\" \"npm run client\"",
-    "start": "npm run server && npm run client",
+    "build": "cd client && npm run build",
+    "start": "concurrently \"npm run server\" \"npm run build && npm run client\"",
     "server": "cd server && npm run server",
-    "client": "cd client && npm run dev",
-    "build": "webpack --mode production",
-    "build2": "webpack --mode development",
-    "start2": "webpack --watch"
+    "client": "cd client && npm run dev"
   },
   "author": "2U",
   "license": "UNLICENSED",

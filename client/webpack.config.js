@@ -38,8 +38,9 @@ module.exports = () => {
           description: 'Terminal to run commands for user',
           background_color: '#225ca3',
           theme_color: '#225ca3',
-          start_url: './',
-          publicPath: './',
+          start_url: '/',
+          id: '/',
+          publicPath: '/',
           icons: [
             {
               src: path.resolve('src/images/logo.png'),
