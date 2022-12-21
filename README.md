@@ -14,4 +14,4 @@ Once this is done you can type (npm run start) and the template will build and g
 
 github- https://github.com/mfarrell23/textPwa.git
 
-deployed- https://git.heroku.com/textpwamb.git
+deployed- https://textpwamb.herokuapp.com/
