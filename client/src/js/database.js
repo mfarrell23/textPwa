@@ -11,7 +11,7 @@ const initdb = async () =>
       console.log('jate database created');
     },
   });
-  //TODO:
+
 // Export a function we will use to POST to the database.
 export const putDb = async (content)  => {
   console.log('Post to the database');
@@ -32,7 +32,6 @@ export const putDb = async (content)  => {
   console.log('🚀 - data saved to the database', result);
 };
 ;
-//TODO:
 // Export a function we will use to GET to the database.
 export const getDb = async () => {
   console.log('GET from the database');
